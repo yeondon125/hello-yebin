@@ -112,3 +112,38 @@ nav > ul > li:hover > a {
   z-index: 5;
   display: none;
 }
+
+.slide {
+  height: 300px;
+  background-color: #40b0f9;
+}
+.slide ul li {
+  width: 1200px;
+  height: 300px;
+}
+.slide ul li a {
+  display: block;
+  height: 100%;
+}
+
+.slide ul {
+  display: flex;
+}
+.s1 {
+  background: url(../images/s1.jpg) no-repeat center/cover;
+}
+
+.s2 {
+  background: url(../images/s2.jpg) no-repeat center/cover;
+}
+.s3 {
+  background: url(../images/s3.jpg) no-repeat center/cover;
+}
+.banner {
+  background-color: #00d2a5;
+}
+
+footer {
+  height: 100px;
+  background-color: #666;
+}
