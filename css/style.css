@@ -120,14 +120,30 @@ nav > ul > li:hover > a {
 .slide ul li {
   width: 1200px;
   height: 300px;
+  position: relative;
 }
 .slide ul li a {
   display: block;
   height: 100%;
 }
 
+.slide ul li h2 {
+  background-color: #0089c9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  color: #fff;
+}
+
 .slide ul {
   display: flex;
+  width: 3600px;
+  height: 300px;
 }
 .s1 {
   background: url(../images/s1.jpg) no-repeat center/cover;
