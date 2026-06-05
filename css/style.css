@@ -116,6 +116,7 @@ nav > ul > li:hover > a {
 .slide {
   height: 300px;
   background-color: #40b0f9;
+  overflow: hidden;
 }
 .slide ul li {
   width: 1200px;
@@ -138,6 +139,10 @@ nav > ul > li:hover > a {
   border-radius: 50px;
   text-align: center;
   color: #fff;
+}
+
+.slide ul li h2 span {
+  color: #e8a541;
 }
 
 .slide ul {
