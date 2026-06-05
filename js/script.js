@@ -5,3 +5,12 @@ $("nav>ul>li").mouseover(function () {
 $("nav>ul>li").mouseout(function () {
   $(".sub, .menuBg").stop().slideUp();
 });
+
+let i = 0;
+function slide() {
+  if (i < 2) i++;
+  else i = 0;
+  $(".slide ul").animate({ marginLeft: -1200 * i }, 1000);
+}
+
+setInterval(slide, 3000);
